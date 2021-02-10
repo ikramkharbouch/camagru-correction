@@ -1,0 +1,169 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.group {
+    flex: 2;
+}
+
+.login-form .form-group {
+    border-bottom: solid #F9A826 1px;
+    padding-top: 2rem;
+    width: 30vw;
+}
+
+/* .login-form .btn {
+    background-color: #F9A826;
+    border: 0;
+    margin-top: 1vh;
+    text-align: center;
+    width: 50% !important;
+} */
+
+.login-form .custom-control {
+    margin-top: 2rem;
+    color: #8F8C8C;
+}
+
+.form {
+    width: 30%;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.terms {
+    color: #8F8C8C;
+    font-weight: 700;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.one {
+    flex: 2;
+}
+
+.two {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) { 
+    .container-1 {
+        flex-direction: column;
+    }
+    .login-form .form-group {
+        width: 80vw;
+    }
+}
+
+.check {
+    padding-left: 30px;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+}
+
+span {
+    color: #9364A8;
+    font-weight: bold;
+}
+
+.container {
+    margin: 100px;
+}
+
+h1 {
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+input.form-control {
+    width: 60%;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid #9364A8;
+}
+
+.sign-in {
+    width: 60%;
+    margin-left: 2%;
+}
+
+.btn-primary.custom-btn {
+    background-color: #9364A8;
+    border: 0;
+    padding: 16px 40px 16px 40px;
+    margin-left: 10px;
+}
+
+.col {
+    padding: 10px;
+}
+.row {
+    margin: 10px;
+}
+
+.error-message {
+    margin-left: 18%;
+}
+
+p {
+    margin-top: 100px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #9364A8;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+  }
+
+@media only screen and (max-width: 1024px) {
+    body {
+        max-width: 100%;
+    }
+
+    img {
+        display: none;
+    }
+    input.form-control {
+        width: 85%;
+        margin-left: 0;
+    }
+    .check {
+        margin-left: 0;
+    }
+    .sign-in {
+        flex-direction: row;
+    }
+    div.container {
+        width: 100vw;
+    }
+
+    .form {
+        padding-left: 0;
+    }
+
+    .btn-primary.custom-btn {
+        margin-left: 0;
+    }
+
+    .error-message {
+        margin-left: 10%;
+    }
+}
